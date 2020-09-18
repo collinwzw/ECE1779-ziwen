@@ -74,7 +74,7 @@ class Event:
 
         >>> e1 = Event(6, 7, 'Run')
         >>> e2 = Event(6, 7, 'Run')
-        >>> e1 == e2
+        >>> e1 == e2  #e1.__eq__(e2)
         True
         """
 
